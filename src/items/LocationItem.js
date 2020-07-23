@@ -23,10 +23,10 @@ export default forwardRef((props, ref) => {
     let isInFavorites = SavedLocations.isSaved(weatherObject);
     let errorMessage = null;
 
-    useEffect(() => {
-        // Update the document title using the browser API
-        refreshObject();
-    }, []);
+    // useEffect(() => {
+    //     // Update the document title using the browser API
+    //     refreshObject();
+    // }, []);
 
     useImperativeHandle(ref, () => ({
         setWeatherObj(location) {
@@ -198,7 +198,7 @@ export default forwardRef((props, ref) => {
                                 <strong>{weatherObject.temp}&deg;</strong>
                                 &nbsp;(feels like {weatherObject.feels_like}&deg;)
                             </Typography>
-                            <Grid className={styles.card_footer}>
+                            <Grid container className={styles.card_footer}>
                                 <Grid item xs={4}>
                                     <Typography>
                                         <img alt="wind_icon" src="./img/temperature_icon.svg"/>
