@@ -169,10 +169,10 @@ export default forwardRef((props, ref) => {
             getLoadingHTML() :
             errorMessage ?
                 getErrorHTML() :
-                // <Animate
-                //     duration={0.2}
-                //     play start={animationStart}
-                //     end={animationEnd}>
+                <Animate
+                    duration={0.2}
+                    play start={animationStart}
+                    end={animationEnd}>
                     <Card>
                         <div className={styles.favorite_div}>
                             <Tooltip arrow title={favoriteText}>
@@ -225,6 +225,7 @@ export default forwardRef((props, ref) => {
                                 </Grid>
                             </Grid>
                         </CardContent>
-                    </Card>}
+                    </Card>
+                </Animate>}
     </div>;
 })
