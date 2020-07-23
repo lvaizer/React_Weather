@@ -32,7 +32,7 @@ export default () => {
     const onLocationFound = (weatherObj) => locationFoundElementRef && locationFoundElementRef.current && locationFoundElementRef.current.setWeatherObj(weatherObj);
 
 
-    return <Container>
+    return <div>
         <SearchBar onLocationFound={onLocationFound}/>
         <ToastElement ref={toastElementRef}/>
         <LocationFound
@@ -45,5 +45,5 @@ export default () => {
             canBeRemoved={false}/>
         <FavoriteLocations ref={favoriteLocationsElementRef}
                            showToast={showToast}/>
-    </Container>;
+    </div>;
 }
