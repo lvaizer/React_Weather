@@ -8,10 +8,11 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom'
 export default () =>
     <BrowserRouter>
         <Header/>
-        <Switch>
-            <Route exact path='/'><Home/></Route>
-            <Route path='/about'><About/></Route>
-        </Switch>
+        <Home/>
+        {/*<Switch>*/}
+        {/*    <Route exact path='/'><Home/></Route>*/}
+        {/*    <Route path='/about'><About/></Route>*/}
+        {/*</Switch>*/}
     </BrowserRouter>;
 
 
