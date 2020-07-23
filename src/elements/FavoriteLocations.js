@@ -23,7 +23,7 @@ export default forwardRef((props, ref) => {
 
     return <div>
         <h5>Favorite locations</h5>
-        <Grid container> {SavedLocations.get().map(weatherObject => (
+        <Grid> {SavedLocations.get().map(weatherObject => (
             <LocationItem key={weatherObject.name}
                           weatherObject={weatherObject}
                           canBeRemoved={true}

@@ -198,7 +198,7 @@ export default forwardRef((props, ref) => {
                                 <strong>{weatherObject.temp}&deg;</strong>
                                 &nbsp;(feels like {weatherObject.feels_like}&deg;)
                             </Typography>
-                            <Grid container className={styles.card_footer}>
+                            <Grid className={styles.card_footer}>
                                 <Grid item xs={4}>
                                     <Typography>
                                         <img alt="wind_icon" src="./img/temperature_icon.svg"/>
