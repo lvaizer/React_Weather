@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react_weather/static/css/main.14aac14f.chunk.css",
-    "main.js": "/react_weather/static/js/main.ad4c9d9d.chunk.js",
-    "main.js.map": "/react_weather/static/js/main.ad4c9d9d.chunk.js.map",
-    "runtime-main.js": "/react_weather/static/js/runtime-main.8352dfb7.js",
-    "runtime-main.js.map": "/react_weather/static/js/runtime-main.8352dfb7.js.map",
-    "static/js/2.1fd34964.chunk.js": "/react_weather/static/js/2.1fd34964.chunk.js",
-    "static/js/2.1fd34964.chunk.js.map": "/react_weather/static/js/2.1fd34964.chunk.js.map",
-    "index.html": "/react_weather/index.html",
-    "precache-manifest.f41aa508e0b85235c1212a2d74893b85.js": "/react_weather/precache-manifest.f41aa508e0b85235c1212a2d74893b85.js",
-    "service-worker.js": "/react_weather/service-worker.js",
-    "static/css/main.14aac14f.chunk.css.map": "/react_weather/static/css/main.14aac14f.chunk.css.map",
-    "static/js/2.1fd34964.chunk.js.LICENSE.txt": "/react_weather/static/js/2.1fd34964.chunk.js.LICENSE.txt"
+    "main.css": "https://lvaizer.github.io/react_weather/static/css/main.14aac14f.chunk.css",
+    "main.js": "https://lvaizer.github.io/react_weather/static/js/main.f4168c2e.chunk.js",
+    "main.js.map": "https://lvaizer.github.io/react_weather/static/js/main.f4168c2e.chunk.js.map",
+    "runtime-main.js": "https://lvaizer.github.io/react_weather/static/js/runtime-main.2af9e6c3.js",
+    "runtime-main.js.map": "https://lvaizer.github.io/react_weather/static/js/runtime-main.2af9e6c3.js.map",
+    "static/js/2.1fd34964.chunk.js": "https://lvaizer.github.io/react_weather/static/js/2.1fd34964.chunk.js",
+    "static/js/2.1fd34964.chunk.js.map": "https://lvaizer.github.io/react_weather/static/js/2.1fd34964.chunk.js.map",
+    "index.html": "https://lvaizer.github.io/react_weather/index.html",
+    "precache-manifest.6b47ff1fe3ac21c0d1a09702d05c3c98.js": "https://lvaizer.github.io/react_weather/precache-manifest.6b47ff1fe3ac21c0d1a09702d05c3c98.js",
+    "service-worker.js": "https://lvaizer.github.io/react_weather/service-worker.js",
+    "static/css/main.14aac14f.chunk.css.map": "https://lvaizer.github.io/react_weather/static/css/main.14aac14f.chunk.css.map",
+    "static/js/2.1fd34964.chunk.js.LICENSE.txt": "https://lvaizer.github.io/react_weather/static/js/2.1fd34964.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8352dfb7.js",
+    "static/js/runtime-main.2af9e6c3.js",
     "static/js/2.1fd34964.chunk.js",
     "static/css/main.14aac14f.chunk.css",
-    "static/js/main.ad4c9d9d.chunk.js"
+    "static/js/main.f4168c2e.chunk.js"
   ]
 }
