@@ -14,7 +14,7 @@ export default class WeatherObject {
     }
 
     /** Generate image by the WeatherObject id */
-    generateImage = () => this.image = '/img/' + getImageByCode(this.id) + '.jpg';
+    generateImage = () => this.image = './img/' + getImageByCode(this.id) + '.jpg';
 
 
     /**

@@ -201,7 +201,7 @@ export default forwardRef((props, ref) => {
                             <Grid container className={styles.card_footer}>
                                 <Grid item xs={4}>
                                     <Typography>
-                                        <img alt="wind_icon" src="/img/temperature_icon.svg"/>
+                                        <img alt="wind_icon" src="./img/temperature_icon.svg"/>
                                     </Typography>
                                     <Typography>
                                         {weatherObject.min_temp}&deg;-{weatherObject.max_temp}&deg;
@@ -209,7 +209,7 @@ export default forwardRef((props, ref) => {
                                 </Grid>
                                 <Grid item xs={4}>
                                     <Typography>
-                                        <img alt="wind_icon" src="/img/wind_icon.svg"/>
+                                        <img alt="wind_icon" src="./img/wind_icon.svg"/>
                                     </Typography>
                                     <Typography>
                                         {weatherObject && weatherObject.wind} km/h
@@ -217,7 +217,7 @@ export default forwardRef((props, ref) => {
                                 </Grid>
                                 <Grid item xs={4}>
                                     <Typography>
-                                        <img alt="wind_icon" src="/img/humidity_icon.svg"/>
+                                        <img alt="wind_icon" src="./img/humidity_icon.svg"/>
                                     </Typography>
                                     <Typography>
                                         {weatherObject && weatherObject.humidity}%
