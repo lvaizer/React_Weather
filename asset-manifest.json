@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://lvaizer.github.io/react_weather/static/css/main.14aac14f.chunk.css",
-    "main.js": "https://lvaizer.github.io/react_weather/static/js/main.f4168c2e.chunk.js",
-    "main.js.map": "https://lvaizer.github.io/react_weather/static/js/main.f4168c2e.chunk.js.map",
+    "main.js": "https://lvaizer.github.io/react_weather/static/js/main.b01cc51c.chunk.js",
+    "main.js.map": "https://lvaizer.github.io/react_weather/static/js/main.b01cc51c.chunk.js.map",
     "runtime-main.js": "https://lvaizer.github.io/react_weather/static/js/runtime-main.2af9e6c3.js",
     "runtime-main.js.map": "https://lvaizer.github.io/react_weather/static/js/runtime-main.2af9e6c3.js.map",
     "static/js/2.1fd34964.chunk.js": "https://lvaizer.github.io/react_weather/static/js/2.1fd34964.chunk.js",
     "static/js/2.1fd34964.chunk.js.map": "https://lvaizer.github.io/react_weather/static/js/2.1fd34964.chunk.js.map",
     "index.html": "https://lvaizer.github.io/react_weather/index.html",
-    "precache-manifest.6b47ff1fe3ac21c0d1a09702d05c3c98.js": "https://lvaizer.github.io/react_weather/precache-manifest.6b47ff1fe3ac21c0d1a09702d05c3c98.js",
+    "precache-manifest.ee08e2ce6ab92edf972a0a8829c0cea7.js": "https://lvaizer.github.io/react_weather/precache-manifest.ee08e2ce6ab92edf972a0a8829c0cea7.js",
     "service-worker.js": "https://lvaizer.github.io/react_weather/service-worker.js",
     "static/css/main.14aac14f.chunk.css.map": "https://lvaizer.github.io/react_weather/static/css/main.14aac14f.chunk.css.map",
     "static/js/2.1fd34964.chunk.js.LICENSE.txt": "https://lvaizer.github.io/react_weather/static/js/2.1fd34964.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.2af9e6c3.js",
     "static/js/2.1fd34964.chunk.js",
     "static/css/main.14aac14f.chunk.css",
-    "static/js/main.f4168c2e.chunk.js"
+    "static/js/main.b01cc51c.chunk.js"
   ]
 }

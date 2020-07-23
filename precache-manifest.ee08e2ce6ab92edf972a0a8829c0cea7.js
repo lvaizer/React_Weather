@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aab2add79ef02ef6d79ec754bb71e342",
+    "revision": "82c20048a8982d01c96c857fa0f62b7a",
     "url": "https://lvaizer.github.io/react_weather/index.html"
   },
   {
-    "revision": "31005b090e17d9b5e451",
+    "revision": "a30fd83f82754deeb998",
     "url": "https://lvaizer.github.io/react_weather/static/css/main.14aac14f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://lvaizer.github.io/react_weather/static/js/2.1fd34964.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "31005b090e17d9b5e451",
-    "url": "https://lvaizer.github.io/react_weather/static/js/main.f4168c2e.chunk.js"
+    "revision": "a30fd83f82754deeb998",
+    "url": "https://lvaizer.github.io/react_weather/static/js/main.b01cc51c.chunk.js"
   },
   {
     "revision": "23e4da94e59f62314e44",
