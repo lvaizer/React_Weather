@@ -10,7 +10,7 @@ export default (props) => {
     //Trigger getCurrentPosition when the item first rendered
     useEffect(() => {
         getCurrentPosition().then();
-    });
+    },[]);
 
     /**
      * Set the weatherObject position object from latitude and longitude
