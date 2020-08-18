@@ -12,6 +12,7 @@ export default () => {
     const favoriteLocationsElementRef = useRef();
     const locationFoundElementRef = useRef();
     const toastElementRef = useRef();
+    const currentLocationElementRef = useRef();
 
     /**
      * Show a toast message - forward the action to the ref of the toast element
@@ -23,7 +24,10 @@ export default () => {
     /**
      * Pass the favorite click action to the relevant ref element
      */
-    const favoriteClicked = () => favoriteLocationsElementRef && favoriteLocationsElementRef.current.favoriteClicked();
+    const favoriteClicked = () => {
+        favoriteLocationsElementRef && favoriteLocationsElementRef.current.update();
+        currentLocationElementRef && currentLocationElementRef.current.update();
+    }
 
     /**
      * Pass weather object to the relevant ref element
@@ -40,10 +44,12 @@ export default () => {
             favoriteClicked={favoriteClicked}
             showToast={showToast}/>
         <CurrentLocation
+            ref={currentLocationElementRef}
             favoriteClicked={favoriteClicked}
             showToast={showToast}
             canBeRemoved={false}/>
         <FavoriteLocations ref={favoriteLocationsElementRef}
+                           favoriteClicked={favoriteClicked}
                            showToast={showToast}/>
     </Container>;
 }

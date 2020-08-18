@@ -1,16 +1,26 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useImperativeHandle, forwardRef} from 'react';
 import LocationItem from "../items/LocationItem";
 import WeatherObject from '../models/WeatherObject.js';
 
-export default (props) => {
+export default forwardRef((props, ref) => {
 
+    const [, updateState] = useState(); //use to force render the element
     const [weatherObject, setWeatherObject] = useState();   //current weather object
     const [show, setShow] = useState(true); //show or hide this view
+
+    useImperativeHandle(ref, () => ({
+        /**
+         * Update the element when favorite clicked
+         */
+        update() {
+            updateState([]);
+        }
+    }));
 
     //Trigger getCurrentPosition when the item first rendered
     useEffect(() => {
         getCurrentPosition().then();
-    },[]);
+    }, []);
 
     /**
      * Set the weatherObject position object from latitude and longitude
@@ -46,4 +56,4 @@ export default (props) => {
     </LocationItem>
     }
     </div> : <></>;
-}
+})

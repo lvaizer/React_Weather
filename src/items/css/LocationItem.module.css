@@ -2,6 +2,7 @@
     width: 18rem;
     margin: 5px;
     max-height: 27rem;
+    min-height: 24rem;
 }
 
 .card_image {

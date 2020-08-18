@@ -11,7 +11,7 @@ export default forwardRef((props, ref) => {
         /**
          * Update the element when favorite clicked
          */
-        favoriteClicked() {
+        update() {
             updateState([]);
         }
     }));
@@ -19,7 +19,10 @@ export default forwardRef((props, ref) => {
     /**
      * Update the element when favorite clicked
      */
-    const favoriteClicked = () => updateState([]);
+    const favoriteClicked = () => {
+        updateState([]);
+        props.favoriteClicked();
+    }
 
     return <div>
         <h5>Favorite locations</h5>

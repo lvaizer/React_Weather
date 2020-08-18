@@ -135,9 +135,9 @@ export default forwardRef((props, ref) => {
     })
 
     const getLoadingHTML = () => (
-        <Card style={{width: '18rem', alignItems: 'center'}}
+        <Card style={{width: '18rem', textAlign: 'center'}}
               className={styles.card}>
-            <CircularProgress disableShrink/>
+            <CircularProgress disableShrink style={{marginTop: "100px"}}/>
         </Card>);
 
     const getErrorHTML = () => (<Card style={{width: '18rem', alignItems: 'center'}}
@@ -204,7 +204,7 @@ export default forwardRef((props, ref) => {
                                         <img alt="wind_icon" src="./img/temperature_icon.svg"/>
                                     </Typography>
                                     <Typography>
-                                        {weatherObject.min_temp}&deg;-{weatherObject.max_temp}&deg;
+                                        {weatherObject.min_temp}&deg;- {weatherObject.max_temp}&deg;
                                     </Typography>
                                 </Grid>
                                 <Grid item xs={4}>
